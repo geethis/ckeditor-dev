@@ -25,7 +25,7 @@ Fixed Issues:
 API Changes:
 
 * [#2249](https://github.com/ckeditor/ckeditor-dev/issues/1791): Added [`CKEDITOR.tools.detectPluginsConflict`](http://docs.ckeditor.com/ckeditor4/docs/#!/api/CKEDITOR_tools.html#method-detectPluginsConflict) function finding conflicts between provided plugins.
-* [#988](https://github.com/ckeditor/ckeditor-dev/issues/988): Fixed: Custom tags starting with protected element tag names are filtered even when added to ACF.
+* [#988](https://github.com/ckeditor/ckeditor-dev/issues/988): Fixed: ACF - enabled custom elements prefixed with `object`, `embed`, `param` are removed from editor's content.
 
 ## CKEditor 4.10
 
